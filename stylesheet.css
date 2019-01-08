@@ -1,0 +1,108 @@
+@charset "utf-8";
+{
+	margin: 0px;
+	
+}
+header{
+	height: 120px;
+	width: 100%;
+}
+header h1 {
+	color: black;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+
+header h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+header img {
+  float: left;
+  height: 100px;
+  background: #555;
+}
+#navBar {
+	width: 100%;
+	height: 40px;
+	background-color: lightblue;
+}
+
+#navBar ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 4px 50px;
+}
+
+#navBar ul li:hover {
+	background-color: transparent;
+	color: black;
+	text-decoration: underline;
+}
+
+#navBar a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	width: 100%;
+}
+
+#sliderbox {
+      position: relative;
+
+      width: 100%;
+      height: 100%;
+      animation-name: slideranimation;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+	float: left;
+
+}
+
+@keyframes slideranimation{
+	0%
+	{
+		left: 0px;
+	}
+	20% /* 4 second */
+	{
+		left: 0px;
+	}
+	25% /* 5 seconds */
+	{
+		left: -200px;
+	}
+	45% /* 9 seconds */
+	{
+		left: -400px;
+	}
+	50% /* 10 seconds */
+	{
+		left: -1000px;
+	}
+	70% /* 14 seconds */
+	{
+		left: -1600px;
+	}
+	75% /* 15 seconds */
+	{
+		left: -2400px;
+	}
+	
+}
+
+footer {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	padding-top: 420px;
+	margin: 0px;
+	color: black;
+	height: 40px;
+	text-align: center;
+	background-color:white;
+	width:100%; clear:both;
+	position:relative;
+	bottom: 0;
+}

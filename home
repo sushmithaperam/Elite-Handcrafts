@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Elite handcrafts</title>
+</head>
+<body>
+<header>
+<h1>Welcome to Elite HandCrafts!</h1>
+</header>
+    <nav id="navBar">
+         <ul>
+         <a href="home.html"><li>Home</li></a>
+         <a href="products.html"><li>Home</li></a>
+         <a href="Offers.html"><li>Home</li></a>
+         <a href="locations.html"><li>Home</li></a>
+         <a href="contact us.html"><li>Home</li></a>
+         </ul>
+    </nav>
+
+
+    <footer>
+	<p>&copy;Elite HandCrafts Inc. 2018 All rights reserved.</p>
+</footer>
+
+
+
+
+</body>
+</html

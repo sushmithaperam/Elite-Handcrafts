@@ -3,32 +3,33 @@
   <head>
     <title>Elite Handcrafts</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <div class="container"><img src="images/elite-logo.jpg" id="logo" /></div>
-    <div><h1 class="heading1">Elite Handcrafts / Home</h1></div>
+    <div class="container"><a href="index.html"><img src="images/elite-logo.jpg" id="logo" /></a></div>
+    <div><h1 class="heading1">Elite Handcrafts</h1></div>
     <br />
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>
-          <a href="products.html">Products</a>
-          <ul>
-            <li><a href="bedroom.html">Bedroom & Living</a></li>
-            <li><a href="decoration.html">Decoration</a></li>
-            <li><a href="outdoor.html">Outdoor</a></li>
-          </ul>
-        </li>
-        <li><a href="offers.html">Offers</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="himalayan_salt.html">Offers</a>
+      <div class="dropdown">
+        <button class="dropbtn"> Products
+        </button>
+        <div class="dropdown-content">
+            <a href="himalayan_salt.html">Himalayan Salt</a>
+            <a href="bedroom.html">Bedroom & Living</a> 
+            <a href="outdoor.html">Outdoor</a>
+            <a href="others.html">Others</a>
+        </div>
+      </div> 
+      <a href="locations.html">Locations</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
 
     <div class="pageHeading"><h4>Contact us</h4></div>
 
-    <h2 align="center">Contact Us</h2>
+    
     <table align="center" cellpadding="8">
       <tr>
         <td>Your Name</td>
@@ -54,6 +55,7 @@
     <footer class="footer">
       <h2>Elite Handcrafts</h2>
       <p>© 2019 Elite handcrafts. All Rights Reserved</p>
+      <a href="https://www.facebook.com/EliteHandcrafts02/" class="fa fa-facebook"></a>
     </footer>
   </body>
 </html>
